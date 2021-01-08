@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+    <style>
+      .slider {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Slider images -->
+    <div class="slider_div">
+      <img
+        class="slider"
+        src="./images/Image 1.png"
+        alt="Image of music show"
+      />
+    </div>
+    <div class="slider_div">
+      <img
+        class="slider"
+        src="./images/Image 2.png"
+        alt="Image of music show"
+      />
+    </div>
+    <div class="slider_div">
+      <img
+        class="slider"
+        src="./images/Image 3.png"
+        alt="Image of music show"
+      />
+    </div>
+    <!-- Menu icon and all text -->
+    <div>
+      <div class="menu">
+        <span class="line"></span>
+      </div>
+
+      <h2 class="company">EXP|CON</h2>
+      <h2 class="title">INTERACTIVE CONCERT EXPERIENCE</h2>
+      <p class="description">
+        Experience your favourite artists like never <br />
+        before and from the comfort of your own home.
+      </p>
+    </div>
+    <!-- Circle indicators for slideshow -->
+    <div>
+      <span class="circle_indicator circle_1" onclick="currentSlide(1)"></span>
+      <span class="circle_indicator circle_2" onclick="currentSlide(2)"></span>
+      <span class="circle_indicator circle_3" onclick="currentSlide(3)"></span>
+    </div>
+    <!-- JavaScript functions in functions.js file -->
+    <script src="./functions.js"></script>
+  </body>
+</html>
